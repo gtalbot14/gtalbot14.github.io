@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New User Form</title>
+    </head>
+    <body>
+        <form id="newUser">
+            <label for="firstName">First Name:</label>
+            <br/>
+            <input id = "firstName"
+                   name = "First Name"
+                   type = "text"
+                   minlength = "1"
+                   maxlength = "32"
+                   required/>
+            <br/>
+            <label for="lastName">Last Name:</label>
+            <br/>
+            <input id = "lastName"
+                   name = "Last Name"
+                   type = "text"
+                   minlength = "1"
+                   maxlength = "32"
+                   required/>
+            <br/>
+            <label for="password">Password:</label>
+            <br/>
+            <input id = "password"
+                   name = "Password"
+                   type = "password"
+                   required/>
+            <br/>
+            <label for="email">Email:</label>
+            <br/>
+            <input id = "email"
+                   name = "Email"
+                   type ="email"
+                   required/>
+            <br/>
+            <label for="phone">Telephone Number:</label>
+            <br/>
+            <input id = "phone"
+                   name = "Telephone Number"
+                   type = "tel"
+                   pattern = "[0-9]{3}-[0-9]{4}"/>
+            <br/>
+            <label for="homePage">URL to Home Page:</label>
+            <br/>
+            <input id="homePage"
+                   name = "Home Page"
+                   type="url"/>
+            <br/>
+            <label for="birthMY">Birth Month and Year:</label>
+            <br/>
+            <input id = "birthMY"
+                   name = "Birth Month and Year"
+                   type = "month"/>
+            <br/>
+            <label for="allowEmail">Can we email you?</label>
+            <br/>
+            <input id = "allowEmail"
+                   name = "Allow Email"
+                   type = "checkbox"
+                   value = "true"/>
+             <br/>
+             <fieldset>
+                     <legend>Can we text you?</legend>
+                     <input id="yes" name="text" type="radio" value="yes"/>
+                     <label for="yes">Yes</label>
+                     <br/>
+                     <input id="no" name="text" type="radio" value="no"/>
+                     <label for="no">No</label>
+             </fieldset>
+
+             <fieldset>
+                     <legend>Do you like our product?</legend>
+                     <input id = "1"
+                            name = "feedback"
+                            type = "radio"
+                            value = "1"/>
+                     <label for="1">1 - don't like it</label>
+                     <br/>
+                     <input id = "2"
+                            name = "feedback"
+                            type = "radio"
+                            value = "2"/>
+                     <label for="2">2 - slightly dislike it</label>
+                     <br/>
+                     <input id = "3"
+                            name = "feedback"
+                            type = "radio"
+                            value = "3"/>
+                     <label for="3">3 - neither like nor dislike it</label>
+                     <br/>
+                     <input id = "4"
+                            name = "feedback"
+                            type = "radio"
+                            value = "4"/>
+                     <label for="4">4 - like it</label>
+                     <br/>
+                     <input id = "5"
+                            name = "feedback"
+                            type = "radio"
+                            value = "5"/>
+                     <label for="5">5 - love it</label>
+                     <br/>
+             </fieldset>
+
+             <input type = "reset"/>
+             <input type = "submit"/>
+
+        </form>
+    </body>
+</html>
