@@ -8,3 +8,7 @@
 
 "Two roads diverged in a wood and I - I took the one less traveled by, and that has made all the difference"  
 -Robert Frost
+
+[Cartoon Table](cartoons.html)
+
+[New User Form](newuser.html)
